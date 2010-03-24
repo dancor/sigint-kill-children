@@ -1,0 +1,10 @@
+name:            sigint-kill-children
+version:         0.1
+license:         BSD3
+license-file:    LICENSE
+author:          dan corson <danl@alum.mit.edu>
+synopsis:        hack tracking since ^C on runProcess leaves child running
+build-type:      Simple
+build-depends:   base, containers, haskell98, process, stm, unix
+hs-source-dirs:  src
+exposed-modules: System.Posix.KillChildren
